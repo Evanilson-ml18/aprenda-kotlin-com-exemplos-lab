@@ -1,5 +1,14 @@
 // [Template no Kotlin Playground](https://pl.kotl.in/WcteahpyN)
 
+enum class fromação { cursos , carreira_global , curso_de_inglês  }
+
+
+ 
+enum class carreiras { full_stak , aperfeiçoamento , migrando_de_carreira}
+ 
+ class curso 
+ class carreira (val android: String , val web: String, val dados:String )
+
 enum class Nivel { BASICO, INTERMEDIARIO, DIFICIL }
 
 class Usuario
@@ -16,6 +25,6 @@ data class Formacao(val nome: String, var conteudos: List<ConteudoEducacional>) 
 }
 
 fun main() {
-    TODO("Analise as classes modeladas para este domínio de aplicação e pense em formas de evoluí-las.")
-    TODO("Simule alguns cenários de teste. Para isso, crie alguns objetos usando as classes em questão.")
+   // TODO("Analise as classes modeladas para este domínio de aplicação e pense em formas de evoluí-las.")
+    //TODO("Simule alguns cenários de teste. Para isso, crie alguns objetos usando as classes em questão.")
 }
